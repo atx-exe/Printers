@@ -7,7 +7,7 @@ public enum PrintingTechnology {
     Sublimation("Сублимационная"),
     Thermal_inkjet("Термическая струйная"),
     Thermal_printing("Термопечать");
-    private String printingTechnology;
+    private final String printingTechnology;
 
     PrintingTechnology(String printingTechnology) {
         this.printingTechnology = printingTechnology;

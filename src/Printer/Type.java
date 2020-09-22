@@ -1,11 +1,9 @@
 package Printer;
 
 public enum Type {
-    Laser_LED("Лазерный и светодиодный"),
-    Inkjet("Струйный"),
-    Sublimation("Сублимационный"),
-    Thermal("Термопечать");
-    private String type;
+    Printer("Принтер"),
+    mfd("МФУ");
+    private final String type;
 
     Type(String type) {
         this.type = type;

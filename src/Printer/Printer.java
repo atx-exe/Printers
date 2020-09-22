@@ -16,4 +16,6 @@ public class Printer {
     private boolean isCISS;
     private boolean isNFC;
 
+    public Printer() {
+    }
 }
